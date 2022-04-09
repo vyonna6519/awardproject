@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'projects'
     'bootstrap4'
     'rest_framework',
     'django.contrib.admin',
@@ -78,7 +79,11 @@ WSGI_APPLICATION = 'awwards.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'project',
+        'USER': 'moringa',
+        'PASSWORD': 'vyonna6519',
+        
+        
     }
 }
 
