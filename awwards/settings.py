@@ -31,8 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'projects'
-    'bootstrap4'
+    'projects',
+    'bootstrap4',
     'rest_framework',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'awwards.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'project',
         'USER': 'moringa',
         'PASSWORD': 'vyonna6519',
@@ -112,7 +112,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Africa/Nairobi'
 
 USE_I18N = True
 
