@@ -1,12 +1,12 @@
-.navbar{
+/* .navbar{
   height: 8vh;
-}
+} */
 #submit{
-  padding: 10px;
-  margin-right: 0;
+  padding: 5px;
+  /* margin-right: 0; */
   margin: 0 !important;
   color: white;
-  font-weight: 50px;
+  font-weight: 300;
 
 }
 
@@ -24,7 +24,11 @@
 .dta,.fa-pastafarianism{
   float: right;
 }
+/* img:hover{
+  zoom:101%;
+  transition: 800ms;
 
+} */
 .single{
   height: 70vh;
   background-repeat: no-repeat;
@@ -79,7 +83,7 @@
   color: white;
 }
 .i b{
-  color:#2b86bb ;
+  color:#2bbbad ;
 }
 .design i{
   color: white;
@@ -170,18 +174,25 @@ body{
     background-color: #f4f7f6;
 }
 .navbar{
-  background-color: #f4f7f6!important;
+  background-color: #494b4a!important;
   box-shadow: none !important;
   border-bottom: 1px solid rgba(0,0,0,0.1);
+  
 }
+
+#nbar{
+  display:flex;
+  /* justify-content: space-around; */
+}
+
 #title{
-  margin-left: 12px;
-  font-weight: 500;
+  /* margin-left: 12px; */
+  font-weight: 300;
 
 }
 .login{
   color: black;
-  font-weight: 500;
+  font-weight: 300;
   padding: 5px;
 }
 .login:hover{
@@ -282,7 +293,6 @@ body{
   color: #2bbbad;
   padding:8px;
 }
-
 .sidePro{
   height: 550px;
   color: white;
@@ -308,7 +318,7 @@ body{
   font-weight: 500;
   font-size: 22px;
   border: 1px solid #2bbbad;
-  border-radius: 80px;
+  border-radius: 50px;
 }
 .loggi{
   width: 90%;
@@ -334,8 +344,6 @@ body{
   text-align: center;
 }
 
-
-
 @media screen and (max-width:360px)  {
   .overl{
     display: none;
@@ -351,5 +359,6 @@ body{
   }
 }
 #search{
-  display: none;
+  font-weight: bold;
+  color: red;
 }
