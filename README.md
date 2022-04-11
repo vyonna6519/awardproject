@@ -3,8 +3,6 @@ This application allows a user to post a project he/she has created and get it r
 
 
 ## Screenshot
-
-Home:
 ![Screenshot from 2022-04-11 23-33-05](https://user-images.githubusercontent.com/93370913/162827672-cc88f7da-e43e-45b8-b5a5-f7268f58b9c6.png)
 
 
