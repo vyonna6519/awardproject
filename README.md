@@ -1,4 +1,4 @@
-# project-pallet
+# Project Awwards
 This application allows a user to post a project he/she has created and get it reviewed by other people. It is built using Django Python framework.
 
 
