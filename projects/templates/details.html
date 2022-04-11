@@ -12,7 +12,7 @@
         </div>
         <div class="col-md-6">
           <h1 class="hed">{{i.name}}</h1>
-          <p class="i">by <b class='b'>{{i.user}} </b> Rating of <strong> {{average}}</strong></p>
+          <p class="i">by <b class='b'>{{i.user}} </b> with a Rating of <strong> {{average}}</strong></p>
           <div class="design">
 
               <a target="_blank"  href="{{i.link}}">{{design}}</a>
@@ -66,12 +66,7 @@
           <button class="btn btn-outline-dark" type="button" name="button">Python</button>
           <button class="btn btn-outline-dark" type="button" name="button">User Experience</button>
           <button class="btn btn-outline-dark" type="button" name="button">JavaScript</button>
-          <button class="btn btn-outline-dark" type="button" name="button">Machine Learning</button>
-          <button class="btn btn-outline-dark" type="button" name="button">C++</button>
-          <button class="btn btn-outline-dark" type="button" name="button">Security</button>
-          <button class="btn btn-outline-dark" type="button" name="button">Network Infrastructure</button>
-          <button class="btn btn-outline-dark" type="button" name="button">Animation</button>
-
+          
       </div>
       <br>
 
@@ -135,7 +130,7 @@
             </table>
 
             {%else%}
-            <li class="list-group-item alert alert-info">No Votes Available</li>
+            <li class="list-group-item alert alert-info">No Votes </li>
 
             {%endif%}
           </ul>
@@ -172,7 +167,7 @@
         </form>
         {%endfor%}
         {%else%}
-        <a href="/accounts/login/"><button class="btn btn-outline-default" type="submit" name="button">Sign in To leave a comment</button></a>
+        <a href="/accounts/login/"><button class="btn btn-outline-default" type="submit" name="button">Sign in To leave comment</button></a>
         {%endif%}
       </div>
 
